@@ -7,15 +7,19 @@ verb1      = input("Give me a verb (an action word): ")
 adjective1 = input("Give me an adjective (a describing word): ")
 adjective2 = input("Give me another adjective: ")
 number     = input("Give me a number: ")
+number2    = input("Give me another number: ")
 food       = input("Give me a food: ")
 body_part  = input("Give me a body part: ")
 celebrity  = input("Give me a celebrity's name: ")
+day_of_the_week = input("Give me a day of the week: ")
 
 # Print the story
 print(f"""
 --- YOUR STORY ---
 
-It was supposed to be a simple dinner, but the moment I touched the {noun1},
+
+      
+It was a {day_of_the_week} like any other {day_of_the_week}. The temperature was a normal {number2} degrees. It was supposed to be a simple dinner, but the moment I touched the {noun1},
 everything went wrong.
 
 I had been cooking for {number} minutes when I accidentally dropped the {noun2}
